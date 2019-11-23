@@ -192,7 +192,6 @@ public class pat1 extends JFrame
                 ((FlowLayout)pnlLayout.getLayout()).setAlignment(FlowLayout.LEFT);
                 JPanel pnlTemp=new JPanel();
                 ((FlowLayout)pnlTemp.getLayout()).setAlignment(FlowLayout.LEFT);
-                pnlTemp.add(new JLabel("TYPE THE NUMBER"));
                 final JTextField txtLetter=new JTextField(20);
                 txtLetter.setToolTipText("Enter english word");
                 pnlTemp.add(txtLetter);
